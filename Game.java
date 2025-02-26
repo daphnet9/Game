@@ -38,6 +38,4 @@ public class Game {
         }
         return points;
     }
-    // public void play()
-    // public int playManyTimes(int num)
 }

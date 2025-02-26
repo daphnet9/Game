@@ -17,5 +17,17 @@ public class Main {
         two.getLevel(2).setPoints(100);
         two.getLevel(3).setPoints(500);
         System.out.println(two.getScore());
+
+        Game three = new Game();
+        three.getLevel(1).reachGoal();
+        three.getLevel(1).setPoints(200);
+        three.getLevel(2).reachGoal();
+        three.getLevel(3).reachGoal();
+        three.makeBonus();
+        System.out.println(three.getScore());
+
+        Game four = new Game();
+        four.getLevel(1).setPoints(0);
+        System.out.println(four.getScore());
     }   
 }
