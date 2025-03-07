@@ -29,5 +29,8 @@ public class Main {
         Game four = new Game();
         four.getLevel(1).setPoints(0);
         System.out.println(four.getScore());
+
+        Game five = new Game();
+        System.out.println(five.playManyTimes(4));
     }   
 }
